@@ -11,7 +11,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
-bot_token = "5626753821:AAEd9an0RhEnZVeu7gSIe6AU_HKRusgRQZg"
+bot_token = 
 bot_username = "zolotoivek_bot"
 
 bot = Bot(token=bot_token, parse_mode="HTML")
