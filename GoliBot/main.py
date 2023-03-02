@@ -4,7 +4,7 @@ import database
 import translator
 
 
-bot = telebot.TeleBot('2047910242:AAFYo7NrHUcpWY2Wl1IeJiu-Dr7dzvFG2R0')
+bot = telebot.TeleBot()
 
 @bot.message_handler(commands=['start'])
 def start_command(message):
